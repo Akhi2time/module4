@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>JavaScript Coding Quiz</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+<p style="display: none;" id="all-done"> All Done </p>
+    <!--Start Button-->
+    <div class="start-button" id="start-button"> <button>Start Quiz</button> </div>
+    
+
+    <!--Timer-->
+    <section>
+      <div class="Timer" style="display: flex;">
+        <div class="Time-Left">Time Left:</div>
+        <div class="Timer-Sec" style="margin-left: 5px;"></div>
+      </div>
+    </section>
+
+    <!--Quiz Rules-->
+    <section class="Quiz-Info">
+      <div class="Quiz-Rules-Title"><span>The Rules of the Quiz</span></div>
+      <div class ="Quiz-Rules">
+          <ol>
+            <li>Everytime a questions is answered incorrectly the timer goes down.</li>
+            <li>Correct answers increase your total score and does not affect the timer</li>
+          </ol>
+      </div>
+    </section>
+
+    <section id="content">
+      <div class="questions" id="questions"> <!--Insert Questions--> </div>
+      <div class="answers" id="answers"> <!--Insert Answers--> </div>
+    </section>
+
+    <p id="check"></p>
+    <!-- <input type="text" placeholder="enter your initials"></input> -->
+      
+    <script src="./script.js"></script>
+</body>
+</html>
