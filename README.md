@@ -10,7 +10,8 @@ I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
 SO THAT I can gauge my progress compared to my peers
 
 
-URL Link: https://github.com/Akhi2time/module4
-Git Hub: https://akhi2time.github.io/module4/
+
+Git Hub: https://github.com/Akhi2time/module4
+URL LINK: https://akhi2time.github.io/module4/
 
 
